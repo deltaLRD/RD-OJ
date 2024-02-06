@@ -3,9 +3,11 @@ image:
 
 tasks:
   - init: mysql < DDL.sql && mysql < mock_data.sql
-
+  - init: redis-server
 ports:
   - port: 8080
     onOpen: open-browser
   - port: 3306
+    onOpen: ignore
+  - port: 6379
     onOpen: ignore
