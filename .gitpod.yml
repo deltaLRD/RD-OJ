@@ -6,3 +6,6 @@ tasks:
 
 ports:
   - port: 8080
+    onOpen: open-browser
+  - port: 3306
+    onOpen: ignore
