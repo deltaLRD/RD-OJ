@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="bb8aba30-5d15-4ee8-846f-0c8ebdf7f87d" name="DDL Mapping">
+      <data-sources db="701dcb41-2a84-4e5d-8913-53febba56c85" ddl="691f6de2-87e8-4577-98a5-2cd5308de309" />
+      <scope>
+        <node kind="schema" qname="rdoj" />
+      </scope>
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="691f6de2-87e8-4577-98a5-2cd5308de309" />
+          <option name="name" value="DDL data source" />
+          <option name="dbmsName" value="MYSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/DDL.sql" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
