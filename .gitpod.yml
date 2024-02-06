@@ -1,1 +1,8 @@
-image: gitpod/workspace-mysql
+image:
+  file: .gitpod.dockerfile
+
+tasks:
+  - init: mysql < DDL.sql && mysql < mock_data.sql
+
+ports:
+  - port: 8080
